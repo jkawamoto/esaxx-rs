@@ -26,7 +26,6 @@ fn main() {
 fn main() {
     cc::Build::new()
         .cpp(true)
-        .static_crt(true)
         .file("src/esaxx.cpp")
         .include("src")
         .compile("esaxx");
